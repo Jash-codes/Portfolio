@@ -1,7 +1,7 @@
 export const skills = [
   { category: "Frontend", items: ["React.js", "Angular", "HTML5", "CSS3", "JavaScript"] },
   { category: "Backend", items: ["Node.js", "Django", "Java Springboot", "Python", "Java"] },
-  { category: "Database & Tools", items: ["MongoDB", "SQL", "Git & GitHub", "VS Code","Dcoker","Kubernetes"] },
+  { category: "Database & Tools", items: ["MongoDB", "SQL", "Git & GitHub", "VS Code","Docker","Kubernetes"] },
   { category: "Soft Skills", items: ["Leadership", "Public Speaking", "Communication", "Adaptability"] },
 ];
 
