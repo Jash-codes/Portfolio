@@ -1,0 +1,79 @@
+/* Importing 'Plus Jakarta Sans' (Modern/Tech) and 'Playfair Display' (Classy) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Light Mode Variables */
+  --bg-color: #f8f9fa;
+  --text-primary: #1a1a1a;
+  --text-secondary: #555;
+  --accent-color: #000000;
+  
+  /* Glassmorphism Variables */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+
+body.dark-mode {
+  /* Dark Mode Variables */
+  --bg-color: #0a0a0a;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent-color: #ffffff;
+
+  --glass-bg: rgba(20, 20, 20, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* UPDATED FONT HERE */
+  font-family: 'Plus Jakarta Sans', sans-serif; 
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Background Blobs */
+.background-blobs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+}
+
+.blob-1 { top: -10%; left: -10%; width: 500px; height: 500px; background: #e0c3fc; }
+body.dark-mode .blob-1 { background: #4a1d96; }
+
+.blob-2 { bottom: 10%; right: -5%; width: 400px; height: 400px; background: #8ec5fc; }
+body.dark-mode .blob-2 { background: #1e3a8a; }
+
+section {
+  scroll-margin-top: 120px; /* Adjusts the scroll position */
+}
+
+html {
+  scroll-behavior: smooth;
+}
