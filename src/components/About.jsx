@@ -12,7 +12,7 @@ const About = () => {
           <h2 className="section-title text-left">About Me</h2>
           <p>
             Hello! I am <strong>Jashwanth G</strong>, a final-year <strong>B.Tech Information Technology</strong> student at 
-            Dr. M.G.R. Educational and Research Institute with a CGPA of <strong>8.16</strong>.
+            Dr. M.G.R. Educational and Research Institute with a CGPA of <strong>8.28</strong>.
           </p>
           <p>
             My journey in tech is driven by a curiosity to build things that matter. 
@@ -22,7 +22,7 @@ const About = () => {
           </p>
           <p>
             When I'm not coding, you can find me watching <strong>Anime</strong>, catching up on the latest <strong>Formula 1</strong> race, 
-            or analyzing Hollywood movies. I am currently looking for opportunities to contribute my skills in Python, Java, and Web Development 
+            or analyzing Hollywood movies. I am currently looking for opportunities to contribute my skills in Java, Puthon and Web Development 
             to a dynamic team.
           </p>
         </div>

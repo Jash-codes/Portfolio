@@ -40,7 +40,7 @@ const Contact = () => {
         {/* Left Side: Contact Info */}
         <div className="contact-info glass-card">
           <h3>Let's Talk</h3>
-          <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+          <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll get back to you!</p>
           
           <div className="info-item">
             <FiMail className="info-icon" />

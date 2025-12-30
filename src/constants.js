@@ -7,22 +7,22 @@ export const skills = [
 
 export const experiences = [
   {
-    role: "Python Tech Intern",
-    company: "Infosys Springboard",
-    duration: "Sep 2025 – Present",
-    type: "Remote",
-    description: "Developing the 'PetRescue Portal' using Python Django, focusing on scalable backend architecture."
-  },
-  {
     role: "Software Engineer Intern",
-    company: "Intrust Innovation Labs",
+    company: "🏢 Intrust Innovation Labs",
     duration: "Aug 2025 – Present",
     type: "Hybrid",
     description: "Collaborating with the engineering team to build and optimize software solutions."
   },
   {
+    role: "Python Tech Intern",
+    company: "🏢 Infosys Springboard",
+    duration: "Sep 2025 – Dec 2025",
+    type: "Remote",
+    description: "Developing the 'PetRescue Portal' using Python Django, focusing on scalable backend architecture."
+  },
+  {
     role: "Machine Learning Intern",
-    company: "iNueron.ai",
+    company: "🏢 iNueron.ai",
     duration: "Oct 2024 – Nov 2024",
     type: "Remote",
     description: "Built a 'Mushroom Classification' model using Random Forest algorithms, achieving high accuracy in prediction."

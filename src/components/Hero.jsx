@@ -19,13 +19,13 @@ const Hero = () => {
         </p>
 
         <h1 className="headline">
-          software engineer based<br />
+          Software Developer based<br />
           <span className="italic-text">in Chennai.</span>
         </h1>
 
         <p className="subtext">
           I am a Final Year B.Tech IT student, a tech enthusiast and programmer passionate about
-          solving problems and building innovative solutions in AI, Full Stack, and Machine Learning.
+          solving problems and building innovative solutions in AI, Full Stack and Machine Learning.
         </p>
 
         {/* --- BUTTONS SECTION --- */}
